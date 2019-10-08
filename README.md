@@ -1,3 +1,8 @@
+# Bloc Party Music
+
+## **Streaming digital music player built with React.Js**
+
+**npm install** to install dependencies listed in the package.json.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
