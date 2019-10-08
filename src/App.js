@@ -9,6 +9,11 @@ function App() {
   return (
     <div className="App">
       <header className="App">
+        <nav>
+          <Link to='/'>Landing</Link>
+          <Link to='/library'>Library</Link>
+          <Link to='/album'>Album</Link>
+        </nav>
         <h1>Block Party Music</h1>
       </header>
       <main>
