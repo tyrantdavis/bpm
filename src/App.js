@@ -19,7 +19,9 @@ class App extends Component  {
         <main>
           <Route exact path="/" component={Landing} />
           <Route path="/library" component={Library} />
-          <Route path="/album" component={Album} />
+
+          {/* // slug will be a version of the album title that's formatted to work well in a URL.  */}
+          <Route path="/album/:slug" component={Album} />
         </main>
       </div>
     );
