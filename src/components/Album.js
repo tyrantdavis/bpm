@@ -85,6 +85,12 @@ class Album extends Component {
     this.play();
   }
 
+  handleTimeChange(e) {
+    const newTime = this.audioElement.duration * e.target.value;
+    this.audioElement.currentTime = newTime;
+    this.setState({ currentTime: newTime });
+  }
+
   render() {
     return (
       <section className="album">
