@@ -54,6 +54,10 @@ class Album extends Component {
     this.play();
   }
 
+  handleNextClick() {
+
+  }
+
   render() {
     return (
       <section className="album">
