@@ -97,7 +97,8 @@ class Album extends Component {
         </table>
         <PlayerBar 
           isPlaying={this.state.isPlaying}
-          currentSong={ this.state.currentSong  }
+          currentSong={this.state.currentSong}
+          handleSongClick={() => this.handleSongClick(this.state.currentSong)}
         />
        </section>
     );
