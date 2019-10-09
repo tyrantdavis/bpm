@@ -92,6 +92,28 @@ class Album extends Component {
     this.setState({ currentTime: newTime });
   }
 
+  handleVolumeChange(e) {
+    const newVolume = e.target.value;
+    this.audioElement.volume = newVolume;
+    this.setState({ volume: newVolume });
+  }
+
+  handleVolumeIncrease(e) {
+    if (this.state.volume < 1) {
+      const newVolume = this.state.volume + 0.1;
+      this.audioElement.volume = Math.min(newVolume, 1);
+      this.setState({ volume: newVolume });
+    } else this.setState({ volume: 1 });
+  }
+
+  handleVolumeDecrease(e) {
+    if (this.state.volume > 0) {
+      const newVolume = this.state.volume - 0.1;
+      this.audioElement.volume = Math.max(0, newVolume);
+      this.setState({ volume: newVolume });
+    } else this.setState({ volume: 0 });
+  }
+
   render() {
     return (
       <section className="album">
@@ -149,7 +171,10 @@ class Album extends Component {
           handleSongClick={() => this.handleSongClick(this.state.currentSong)}
           handlePrevClick={() => this.handlePrevClick()}
           handleNextClick={() => this.handleNextClick()}
-          handleTimeChange={ (e) => this.handleTimeChange(e)  }
+          handleTimeChange={(e) => this.handleTimeChange(e)}
+          handleVolumeChange={e => this.handleVolumeChange(e)}
+          handleVolumeIncrease={e => this.handleVolumeIncrease(e)}
+          handleVolumeDecrease={e => this.handleVolumeDecrease(e)}
         />
        </section>
     );
