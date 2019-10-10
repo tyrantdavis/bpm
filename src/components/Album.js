@@ -116,7 +116,7 @@ class Album extends Component {
 
   render() {
     return (
-      <section className="album">
+      <main className="album">
         <section id="album-info">
           <img id="album-cover-art" src={this.state.album.albumCover} alt={this.state.album.title} />
           <div className="album-details">
@@ -176,7 +176,7 @@ class Album extends Component {
           handleVolumeIncrease={e => this.handleVolumeIncrease(e)}
           handleVolumeDecrease={e => this.handleVolumeDecrease(e)}
         />
-       </section>
+       </main>
     );
   }
 }
