@@ -114,6 +114,14 @@ class Album extends Component {
     } else this.setState({ volume: 0 });
   }
 
+  formatTime(time) {
+    if (time) {
+      return `${ Math.floor(time / 60)  }:${Number(time % 60 / 100).toFixed(2).substr(2, 3)} `;
+    } else {
+      return "-:--"
+    };
+  }
+
   render() {
     return (
       <main className="album">
@@ -154,7 +162,7 @@ class Album extends Component {
                   </td>
                   <td>
                     <span>
-                      { song.duration  }
+                      { this.formatTime(song.duration)  }
                     </span>
                   </td>
                </tr>
@@ -173,6 +181,7 @@ class Album extends Component {
           handleNextClick={() => this.handleNextClick()}
           handleTimeChange={(e) => this.handleTimeChange(e)}
           handleVolumeChange={e => this.handleVolumeChange(e)}
+          formatTime={(e) => this.formatTime(e)}
           handleVolumeIncrease={e => this.handleVolumeIncrease(e)}
           handleVolumeDecrease={e => this.handleVolumeDecrease(e)}
         />
