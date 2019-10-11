@@ -18,11 +18,13 @@ class Library extends Component {
               <section className="library-album-container column fourth">
                 <img src={album.albumCover} alt={album.title} />
                 <section className="library-album-info caption">
-                  <Link to={`/album/${album.slug}`} key={index}>
-                    <div className="album-name">{album.title}</div>
-                    <div>{album.artist}</div>
-                    <div>{album.songs.length} songs</div>
-                  </Link>
+                  <p>
+                    <Link to={`/album/${album.slug}`} key={index}>
+                      <div className="album-name">{album.title}</div>
+                      <div>{album.artist}</div>
+                      <div>{album.songs.length} songs</div>
+                    </Link>
+                  </p>
                 </section>
               </section>
 
