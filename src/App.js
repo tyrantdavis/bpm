@@ -11,11 +11,11 @@ class App extends Component  {
       <div className="App">
         <header className="App">
           <nav className="navbar">
-            <img className="logo" src="/assets/images/bpmLogo.png" alt="block party music logo"  />
-            <Link to='/'>Landing</Link>
-            <Link to='/library'>Library</Link>
+            <Link to="/" className="logo">
+              <img  src="/assets/images/bpmLogo.png" alt="block party music logo" />
+            </Link>
+            <Link to='/library' className="navbar-link">Library</Link>
           </nav>
-          <h1>BPM</h1>
         </header>
         <main>
           <Route exact path="/" component={Landing} />
