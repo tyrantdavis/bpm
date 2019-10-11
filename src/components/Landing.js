@@ -2,7 +2,7 @@ import React from 'react';
 
 const Landing = () => (
   <main className="landing">
-    <h1 className="hero-title">Music Your Way So You Can Party Your Way!.</h1>
+    <h1 className="hero-title">Music Your Way!.</h1>
 
     <article className="selling-points">
       <section className="point">
