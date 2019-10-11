@@ -136,7 +136,8 @@ class Album extends Component {
               <div id="album-view-release-info">{this.state.album.releaseInfo}</div>
             </div>
           </section>
-          <table id="song-list">
+
+          <table id="album-view-song-list">
             <colgroup>
               <col id="song-number-column" />
               <col id="song-title-column" />
@@ -145,12 +146,12 @@ class Album extends Component {
             <tbody>
               {
                 this.state.album.songs.map((song, index) =>
-                  <tr className="song" key={index}
+                  <tr className="album-view-song-item" key={index}
                     onClick={() => this.handleSongClick(song)}
                     onMouseEnter={() => this.setState({ isHovered: index + 1 }  )  }
                     onMouseLeave={() => this.setState({ isHovered: false } )  }
       >
-                    <td className="song-actions"  >
+                    <td className="song-actions song-item-number"  >
                       <button>
                         { this.state.currentSong.title === song.title ?
                         (<span className={this.state.isPlaying ? "ion-pause" : "ion-play"} />) :
@@ -158,12 +159,12 @@ class Album extends Component {
                           (<span className="song-number">{index + 1}</span>) }
                       </button>
                     </td>
-                    <td>
+                    <td className="song-item-title">
                       <span>
                       { song.title  }
                       </span>
                     </td>
-                    <td>
+                    <td className="song-item-duration">
                       <span>
                         { this.formatTime(song.duration)  }
                       </span>
