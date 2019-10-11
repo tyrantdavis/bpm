@@ -14,7 +14,9 @@ class App extends Component  {
             <Link to="/" className="logo">
               <img  src="/assets/images/bpmLogo.png" alt="block party music logo" />
             </Link>
-            <Link to='/library' className="navbar-link">Library</Link>
+            <section className="links-container">
+              <Link to='/library' className="navbar-link">Library</Link>
+            </section>
           </nav>
         </header>
         <main>
