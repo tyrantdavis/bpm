@@ -17,6 +17,11 @@ body {
   min-height: 100%; /* says the height of the body must be, at minimum, 100% of the window */
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 64rem;
+}
+
 /* Medium screens (640px) */
 @media (min-width: 640px) {
   html {
