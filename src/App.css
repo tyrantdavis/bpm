@@ -24,6 +24,7 @@
 /* END STOCK CSS */
 
 .navbar {
+  position: relative;
   padding: 0.5rem;
   background-color: rgb(101, 18, 95, 0.5);
   z-index: 1;
