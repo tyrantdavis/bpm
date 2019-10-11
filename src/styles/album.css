@@ -13,8 +13,12 @@ body.album {
   width: 60%;
 }
 
+/* .album-view {
+  text-align: center;
+} */
+
 .album-view-details {
-  /* position: relative; */ /* makes track1 unclickable */
+  position: relative;
   top: 1.5rem;
   padding: 1rem;
 }

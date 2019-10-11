@@ -23,7 +23,7 @@ body {
 }
 
 .container.narrow {
-  /* max-width: 56rem;*/ /* Cause album-art and album-info to overlap WIP*/
+  max-width: 56rem;
 }
 
 /* Medium screens (640px) */
