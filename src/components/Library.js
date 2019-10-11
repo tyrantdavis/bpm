@@ -15,9 +15,9 @@ class Library extends Component {
         <section className='album-covers container clearfix'>
           {
             this.state.albums.map((album, index) =>
-              <section className="collection-album-container column half">
+              <section className="library-album-container column fourth">
                 <img src={album.albumCover} alt={album.title} />
-                <section className="collection-album-info caption">
+                <section className="library-album-info caption">
                   <Link to={`/album/${album.slug}`} key={index}>
                     <div className="album-name">{album.title}</div>
                     <div>{album.artist}</div>
