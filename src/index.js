@@ -5,6 +5,7 @@ import './index.css';
 import '../src/styles/normalize.css';
 import '../src/styles/main.css';
 import '../src/styles/landing.css';
+import '../src/styles/library.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
