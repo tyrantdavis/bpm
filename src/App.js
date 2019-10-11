@@ -10,8 +10,8 @@ class App extends Component  {
     return (
       <div className="App">
         <header className="App">
-          <nav>
-            <img src="/assets/images/bpmLogo.png" alt="block party music logo" className="logo"  />
+          <nav className="navbar">
+            <img className="logo" src="/assets/images/bpmLogo.png" alt="block party music logo"  />
             <Link to='/'>Landing</Link>
             <Link to='/library'>Library</Link>
           </nav>
