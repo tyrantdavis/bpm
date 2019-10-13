@@ -7,6 +7,7 @@ import '../src/styles/main.css';
 import '../src/styles/landing.css';
 import '../src/styles/library.css';
 import '../src/styles/album.css';
+import '../src/styles/playerbar.css'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
