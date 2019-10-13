@@ -52,8 +52,10 @@ body.album {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+/* rem calculation: 16px = 1rem */
 .song-item-number {
   width: 5%;
+  min-width: 1.875rem; /* 1.875rem equiv. to 30px */
 }
 
 .song-item-title {
@@ -62,6 +64,27 @@ body.album {
 
 .song-item-duration {
   width: 5%;
+}
+
+.album-song-button {
+  text-align: center;
+  font-size: 0.875rem;
+  background-color: white;
+  color: rgb(210, 40, 123);
+  border-radius: 50% 50%;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+}
+
+.album-song-button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(210, 40, 123);
+}
+
+.album-song-button span {
+  line-height: 1.4rem; /* = 23px*/
 }
 
 /* #2 */
