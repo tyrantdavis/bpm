@@ -14,6 +14,10 @@
   color: rgb(210, 40, 123, 0.8);
 }
 
+/* button {
+  all: unset;
+} */
+
 .player-bar a {
   font-size: 1.1rem;
   vertical-align: middle;
