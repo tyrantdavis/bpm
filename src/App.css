@@ -1,28 +1,3 @@
-/* STOCK CSS */
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-} */
-/* END STOCK CSS */
-
 .navbar {
   position: relative;
   padding: 0.5rem;
@@ -30,8 +5,7 @@
   z-index: 1;
 }
 
-.navbar > .logo {
-  /*Remove > above*/
+.navbar .logo {
   position: relative;
   left: 2rem;
   cursor: pointer; /* produces the finger-pointer icon when you hover over the logo */
@@ -52,19 +26,16 @@
   height: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
-  /* #3 */
   vertical-align: middle;
   color: white;
   font-size: 0.625rem;
   letter-spacing: 0.05rem;
   font-weight: 700;
   text-transform: uppercase;
-  /* #4 */
   text-decoration: none;
   cursor: pointer;
 }
 
-/* #5 */
 .links-container .navbar-link:hover {
   color: rgb(233, 50, 117);
 }
