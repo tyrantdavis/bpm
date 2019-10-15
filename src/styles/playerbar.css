@@ -1,6 +1,6 @@
 .player-bar {
   position: fixed;
-  text-align: center; /*new*/
+  text-align: center;
   bottom: 0;
   left: 0;
   right: 0;
@@ -30,18 +30,14 @@
   display: block;
   padding: 0;
   width: 90%;
-  /* min-height: 100%; */
 }
 
 .player-bar .control-group {
-  /* display: table-cell; */
-  /* vertical-align: middle; */
   padding-top: 0.6rem;
 }
 
 .player-bar .main-controls {
   width: 100%;
-  /* text-align: left; */
   padding-right: 1rem;
 }
 

@@ -14,10 +14,6 @@ body.album {
   width: 60%;
 }
 
-/* .album-view {
-  text-align: center;
-} */
-
 .album-view-details {
   position: relative;
   top: 1.5rem;
@@ -49,7 +45,6 @@ body.album {
 
 .album-view-song-item {
   height: 3rem;
-  /* #1 */
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -88,7 +83,6 @@ body.album {
   line-height: 1.4rem; /* = 23px*/
 }
 
-/* #2 */
 @media (max-width: 640px) and (min-width: 320px) {
   .album-view-details {
     text-align: center;
@@ -99,7 +93,6 @@ body.album {
   }
 }
 
-/* #3 */
 @media (max-width: 1024px) and (min-width: 320px) {
   .album-view-song-list {
     position: relative;

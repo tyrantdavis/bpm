@@ -136,7 +136,6 @@ class Album extends Component {
               <div className="album-view-release-info">{this.state.album.releaseInfo}</div>
             </div>
           </section>
-          {/* <section id="songs"> */}
             <table className="album-view-song-list">
               <colgroup>
                 <col id="song-number-column" />
@@ -174,7 +173,6 @@ class Album extends Component {
                 }
               </tbody>
             </table>
-         {/* </section> */}
         </main>
         <section>
         <PlayerBar 
@@ -194,7 +192,6 @@ class Album extends Component {
           handleVolumeDecrease={e => this.handleVolumeDecrease(e)}
           />
         </section>
-          {/* </main> */}
       </body>
     );
   }

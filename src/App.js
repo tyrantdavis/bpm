@@ -19,13 +19,10 @@ class App extends Component  {
             </section>
           </nav>
         </header>
-        {/* <main> */}
           <Route exact path="/" component={Landing} />
           <Route path="/library" component={Library} />
-
           {/* // slug will be a version of the album title that's formatted to work well in a URL.  */}
           <Route path="/album/:slug" component={Album} />
-        {/* </main> */}
       </div>
     );
   }
