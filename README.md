@@ -18,8 +18,6 @@
 
 <img width="1424" alt="Screen Shot 2019-10-15 at 12 13 32 PM" src="https://user-images.githubusercontent.com/14861025/66853622-5804c400-ef45-11e9-804d-7cc304f7fe76.png">
 
-## Player Bar
-
 ---
 
 ## End-User Usage
