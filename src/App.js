@@ -12,7 +12,7 @@ class App extends Component  {
         <header className="App">
           <nav className="navbar">
             <Link to="/" className="logo">
-              <img  src="/assets/images/bpmLogo.png" alt="block party music logo" />
+              <img  src="/assets/images/bpmLogo.png" alt="beats per minute logo" />
             </Link>
             <section className="links-container">
               <Link to='/library' className="navbar-link">Library</Link>
