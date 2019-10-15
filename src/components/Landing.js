@@ -3,7 +3,7 @@ import React from 'react';
 const Landing = () => (
   <main className="">
     <section className="hero-content">
-      <h1 className="hero-title">Music Your Way!.</h1> 
+      <h1 className="hero-title">Music Your Way!</h1> 
     </section>
     <article className="selling-points container clearfix">
       <section className="point column third">
