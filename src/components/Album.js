@@ -124,7 +124,7 @@ class Album extends Component {
 
   render() {
     return (
-      <body className="album">
+      <section className="album">
         <main className="album-view container narrow">
           <section id="album-info" className="clearfix"> 
             <div className="column half">
@@ -192,7 +192,7 @@ class Album extends Component {
           handleVolumeDecrease={e => this.handleVolumeDecrease(e)}
           />
         </section>
-      </body>
+      </section>
     );
   }
 }

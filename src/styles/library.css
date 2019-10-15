@@ -21,17 +21,17 @@ main.library {
   margin-top: 10px;
 }
 
-.library-album-container .caption p {
+.library-album-container .caption div {
   font-size: 1rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.library-album-container .caption p a {
+.library-album-container .caption div a {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.library-album-container .caption p a.album-name {
+.library-album-container .caption div a.album-name {
   color: white;
 }
 

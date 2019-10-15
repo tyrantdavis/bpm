@@ -15,16 +15,16 @@ class Library extends Component {
         <section className='album-covers container clearfix'>
           {
             this.state.albums.map((album, index) =>
-              <section className="library-album-container column fourth">
+              <section className="library-album-container column fourth" key={index}>
                 <img src={album.albumCover} alt={album.title} />
                 <section className="library-album-info caption">
-                  <p>
+                  <div>
                     <Link to={`/album/${album.slug}`} key={index}>
                       <div className="album-name">{album.title}</div>
                       <div>{album.artist}</div>
                       <div>{album.songs.length} songs</div>
                     </Link>
-                  </p>
+                  </div>
                 </section>
               </section>
 

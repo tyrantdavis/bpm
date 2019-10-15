@@ -1,4 +1,4 @@
-body.album {
+section.album {
   background-image: url(/assets/images/blurred_backgrounds/blur_bg_3.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -56,6 +56,7 @@ body.album {
 
 .song-item-title {
   width: 85%;
+  text-align: center;
 }
 
 .song-item-duration {

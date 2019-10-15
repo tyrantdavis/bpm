@@ -9,7 +9,7 @@ class PlayerBar extends Component {
         <section id="buttons" className="container" >
           <div className="control-group main-controls" >
             <a className="previous" onClick={this.props.handlePrevClick}>
-              <span className="ion-skip-backward"></span>
+              <span className="ion-skip-backward" ></span>
             </a>
             <a className="play-pause">
               <span className={this.props.isPlaying ? 'ion-pause' : 'ion-play'} onClick={this.props.handleSongClick}  ></span>
@@ -36,7 +36,7 @@ class PlayerBar extends Component {
         </div>
         <div className="control-group volume">
           <section id="volume-control">
-            <span className="icon ion-volume-low right-pad"> {this.props.handleVolumeIncrease}  </span>
+            <span className="icon ion-volume-low right-pad"> {this.handleVolumeIncrease}  </span>
             <input style={{ width: "23%" }}
               type="range"
               className="seek-bar"
@@ -46,7 +46,7 @@ class PlayerBar extends Component {
               step="0.01"
               onChange={this.props.handleVolumeChange}
             />
-            <span className="icon ion-volume-high left-pad" onClick={this.props.handleVolumeDecrease}></span>
+            <span className="icon ion-volume-high left-pad" onClick={this.handleVolumeDecrease}></span>
           </section>
         </div>
        </section>
