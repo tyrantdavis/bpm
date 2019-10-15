@@ -8,9 +8,15 @@
 
 ## Home
 
+<img width="1423" alt="Screen Shot 2019-10-15 at 12 10 33 PM" src="https://user-images.githubusercontent.com/14861025/66853434-e6c51100-ef44-11e9-8d2c-83a9723cad3d.png">
+
 ## Library
 
+<img width="1440" alt="Screen Shot 2019-10-15 at 12 01 41 PM" src="https://user-images.githubusercontent.com/14861025/66853170-3eaf4800-ef44-11e9-9518-de62a5cc022c.png">
+
 ## Album
+
+<img width="1424" alt="Screen Shot 2019-10-15 at 12 13 32 PM" src="https://user-images.githubusercontent.com/14861025/66853622-5804c400-ef45-11e9-804d-7cc304f7fe76.png">
 
 ## Player Bar
 
@@ -38,7 +44,7 @@ And please use the appropriate [Editorconfig](http://editorconfig.org/) plugin f
 
 ### Node
 
-[Node](http://nodejs.org/) is really easy to install & now include [NPM](https://npmjs.org/).
+[Node](http://nodejs.org/) simple to install & now include [NPM](https://npmjs.org/).
 You should be able to run the following command after the installation procedure
 below.
 
@@ -48,21 +54,27 @@ below.
     $ npm --version
     6.9.0
 
+#### If you need or want to switch between Node versions then install [NVM](https://github.com/nvm-sh/nvm#installation-and-update)
+
     $ nvm --version
     0.35.0
 
-#### Node installation on OS X
+#### Node installation on OS X [Guide](https://treehouse.github.io/installation-guides/mac/node-mac.html)
 
-You will need to use a Terminal. On OS X, you can find the default terminal in
+Open Terminal app. On OS X, you can find the default terminal in
 `/Applications/Utilities/Terminal.app`.
 
 Please install [Homebrew](http://brew.sh/) if it's not already done with the following command.
 
     $ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
-If everything when fine, you should run
+If you had trouble access this help guide [How to Install Homebrew](https://treehouse.github.io/installation-guides/mac/homebrew)
 
-    brew install node
+If installed type **brew update** to update Homebrew.
+
+Run
+
+\$ brew install node
 
 #### Node installation on Linux
 
@@ -73,7 +85,7 @@ If everything when fine, you should run
 
 #### Node installation on Windows
 
-Just go on [official Node.js website](http://nodejs.org/) & grab the installer.
+Visit the [official Node.js website](http://nodejs.org/) & download the installer.
 Also, be sure to have `git` available in your PATH, `npm` might need it.
 
 ---
@@ -129,18 +141,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
 ### Advanced Configuration
 
