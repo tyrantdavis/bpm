@@ -1,5 +1,5 @@
 export default [{
-  title: 'Keep It Between Us',
+  title: 'Keep It Between Us Luv',
   artist: 'Kelly Rowland',
   releaseInfo: 'Arista Records',
   albumCover: window.location.origin + '/assets/images/album_covers/krowland.jpeg',
