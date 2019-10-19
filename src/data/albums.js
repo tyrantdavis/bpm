@@ -2,7 +2,7 @@ export default [{
   title: 'Keep It Between Us Luv',
   artist: 'Kelly Rowland',
   releaseInfo: 'Arista Records',
-  albumCover: window.location.origin + '/assets/images/album_covers/krowland.jpeg',
+  albumCover: '/images/sampleAlbumCover.jpg',
   slug: 'the-colors',
   songs: [
     { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
