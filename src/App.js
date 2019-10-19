@@ -4,7 +4,7 @@ import './App.css';
 import Landing from './components/Landing';
 import Library from './components/Library';
 import Album from './components/Album';
-
+import Logo from './sampleBpmLogo.png';
 class App extends Component  {
   render () {
     return (
@@ -12,7 +12,7 @@ class App extends Component  {
         <header className="App">
           <nav className="navbar">
             <Link to="/" className="logo">
-              <img  src="/assets/images/bpmLogo.png" alt="beats per minute logo" />
+              <img  src={Logo} />
             </Link>
             <section className="links-container">
               <Link to='/library' className="navbar-link">Library</Link>
