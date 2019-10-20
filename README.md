@@ -36,6 +36,8 @@
 - Use the **seek-bar** to scroll a song's position in time or **click** along the **timeline**.
 - Use the **_volume_ control** to adjust the _volume_ by scrolling or clicking along the **volume bar**.
 
+ENJOY!
+
 ---
 
 Created By: Tyrant Davis - 2019
