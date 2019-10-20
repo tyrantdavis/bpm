@@ -98,22 +98,6 @@ class Album extends Component {
     this.setState({ volume: newVolume });
   }
 
-  handleVolumeIncrease(e) {
-    if (this.state.volume < 1) {
-      const newVolume = this.state.volume + 0.1;
-      this.audioElement.volume = Math.min(newVolume, 1);
-      this.setState({ volume: newVolume });
-    } else this.setState({ volume: 1 });
-  }
-
-  handleVolumeDecrease(e) {
-    if (this.state.volume > 0) {
-      const newVolume = this.state.volume - 0.1;
-      this.audioElement.volume = Math.max(0, newVolume);
-      this.setState({ volume: newVolume });
-    } else this.setState({ volume: 0 });
-  }
-
   formatTime(time) {
     if (time) {
       return `${ Math.floor(time / 60)  }:${Number(time % 60 / 100).toFixed(2).substr(2, 3)} `;
