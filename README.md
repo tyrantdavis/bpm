@@ -6,11 +6,11 @@
 
 ## Home
 
-<img width="1423" alt="Screen Shot 2019-10-15 at 12 10 33 PM" src="https://user-images.githubusercontent.com/14861025/66853434-e6c51100-ef44-11e9-8d2c-83a9723cad3d.png">
+![Screen Shot 2019-10-20 at 3 34 00 PM](https://user-images.githubusercontent.com/14861025/67165817-32b1f480-f34f-11e9-8589-b97dcc674fe1.png)
 
 ## Library
 
-<img width="1440" alt="Screen Shot 2019-10-15 at 12 01 41 PM" src="https://user-images.githubusercontent.com/14861025/66853170-3eaf4800-ef44-11e9-9518-de62a5cc022c.png">
+![Screen Shot 2019-10-20 at 3 06 08 PM](https://user-images.githubusercontent.com/14861025/67165494-4d826a00-f34b-11e9-85a3-8191b5437f48.png)
 
 ## Album
 

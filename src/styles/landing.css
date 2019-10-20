@@ -5,7 +5,6 @@ body.landing {
 .hero-content {
   position: relative;
   min-height: 600px; /* hero content element must be _at least_ 600 pixels */
-  background-image: url(/images/heroImage.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
