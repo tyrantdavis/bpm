@@ -10,7 +10,7 @@
 
 ## Library
 
-![Screen Shot 2019-10-20 at 3 06 08 PM](https://user-images.githubusercontent.com/14861025/67165494-4d826a00-f34b-11e9-85a3-8191b5437f48.png)
+![Screen Shot 2019-10-20 at 4 56 17 PM](https://user-images.githubusercontent.com/14861025/67167013-a279ac80-f35a-11e9-8a7a-c89276a70f1a.png)
 
 ## Album
 
