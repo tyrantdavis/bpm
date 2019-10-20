@@ -1,8 +1,8 @@
-# BeatsPerMinute
+### ![bpm-fade-in copy 2](https://user-images.githubusercontent.com/14861025/67163311-fcff1280-f332-11e9-96c6-04bbe17a4521.png)
 
 ## **Streaming digital music player built with React.Js**
 
----
+## [Demo]()
 
 ## Home
 
@@ -14,9 +14,15 @@
 
 ## Album
 
-<img width="1424" alt="Screen Shot 2019-10-15 at 12 13 32 PM" src="https://user-images.githubusercontent.com/14861025/66853622-5804c400-ef45-11e9-804d-7cc304f7fe76.png">
+## <img width="1424" alt="Screen Shot 2019-10-15 at 12 13 32 PM" src="https://user-images.githubusercontent.com/14861025/66853622-5804c400-ef45-11e9-804d-7cc304f7fe76.png">
 
----
+## Mobile
+
+![Screen Shot 2019-10-20 at 12 03 32 PM](https://user-images.githubusercontent.com/14861025/67163200-b65ce880-f331-11e9-8bb0-c2dba72062a1.png)
+
+![Screen Shot 2019-10-20 at 11 57 14 AM](https://user-images.githubusercontent.com/14861025/67163135-fbcce600-f330-11e9-97f8-24cc0846e6a9.png)
+
+## ![Screen Shot 2019-10-20 at 11 52 19 AM](https://user-images.githubusercontent.com/14861025/67163081-59146780-f330-11e9-906e-205839b5f35c.png)
 
 ## Usage
 
