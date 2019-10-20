@@ -2,7 +2,7 @@
 
 ## **Streaming digital music player built with React.Js**
 
-## [Demo]()
+## [Demo](https://beatspm.herokuapp.com/)
 
 ## Home
 
