@@ -6,7 +6,7 @@
 
 ## Home
 
-![Screen Shot 2019-10-20 at 3 34 00 PM](https://user-images.githubusercontent.com/14861025/67165817-32b1f480-f34f-11e9-8589-b97dcc674fe1.png)
+![Screen Shot 2019-10-20 at 3 44 11 PM](https://user-images.githubusercontent.com/14861025/67165987-f4b5d000-f350-11e9-8772-cb25432c786c.png)
 
 ## Library
 
@@ -18,7 +18,7 @@
 
 ## Mobile
 
-![Screen Shot 2019-10-20 at 12 03 32 PM](https://user-images.githubusercontent.com/14861025/67163200-b65ce880-f331-11e9-8bb0-c2dba72062a1.png)
+![Screen Shot 2019-10-20 at 3 44 56 PM](https://user-images.githubusercontent.com/14861025/67165976-d64fd480-f350-11e9-9c35-e5082a200034.png)
 
 ![Screen Shot 2019-10-20 at 11 57 14 AM](https://user-images.githubusercontent.com/14861025/67163135-fbcce600-f330-11e9-97f8-24cc0846e6a9.png)
 
