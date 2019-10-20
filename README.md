@@ -26,15 +26,15 @@
 
 ## Usage
 
-- Click on **BPM** _logo_ to return to the home page at anytime.
-- Click **Library** to view collection of albums.
+- Click on **BPM** _logo_, top-left, to return to the home page at anytime.
+- Click **Library**, top-right, to view collection of albums.
 - Click on an _album's_ **info link** to view album details and _track list_.
-- Scroll down to **_bring the track list into view_** above the main controls panel.
+- Scroll to **_bring the track list into full view_** above the main controls panel.
 - _Click_ anywhere inside a _song row_ or on the _song number_ to **play** or **pause** a song.
 - Use the **main controls panel** to _navigate_ and _play/pause_ songs in the list.
 - The **Main Control Panel** displays current **artist and song title** , and mirrors the song's state.
-- Use the **seek-bar** to scroll a song's position in time or **click** along the timeline.
-- Use the **_volume_ control** to adjust the _volume_.
+- Use the **seek-bar** to scroll a song's position in time or **click** along the **timeline**.
+- Use the **_volume_ control** to adjust the _volume_ by scrolling or clicking along the **volume bar**.
 
 ---
 
