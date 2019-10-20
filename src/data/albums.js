@@ -23,7 +23,7 @@ export default [{
       { title: 'Red', duration: '268.45', audioSrc: '/music/red.mp3' },
       { title: 'Pink', duration: '153.14', audioSrc: '/music/pink.mp3' },
       { title: 'Magenta', duration: '374.22', audioSrc: '/music/magenta.mp3' },
-      { title: 'Blue', duration: '161.71', audioSrc: '/music/blue.mp3' }
+      { title: 'Mac Blue', duration: '161.71', audioSrc: '/music/blue.mp3' }
 
     ]
   }, {
@@ -84,7 +84,7 @@ export default [{
       { title: 'Red', duration: '268.45', audioSrc: '/music/red.mp3' },
       { title: 'Pink', duration: '153.14', audioSrc: '/music/pink.mp3' },
       { title: 'Magenta', duration: '374.22', audioSrc: '/music/magenta.mp3' },
-      { title: 'Blue', duration: '161.71', audioSrc: '/music/blue.mp3' }
+      { title: 'Mac Blue', duration: '161.71', audioSrc: '/music/blue.mp3' }
 
     ]
   },{
@@ -158,7 +158,7 @@ export default [{
       { title: 'Red', duration: '268.45', audioSrc: '/music/red.mp3' },
       { title: 'Pink', duration: '153.14', audioSrc: '/music/pink.mp3' },
       { title: 'Magenta', duration: '374.22', audioSrc: '/music/magenta.mp3' },
-      { title: 'Blue', duration: '161.71', audioSrc: '/music/blue.mp3' }
+      { title: 'Mac Blue', duration: '161.71', audioSrc: '/music/blue.mp3' }
 
     ]
   },{
@@ -199,7 +199,7 @@ export default [{
       { title: 'Red', duration: '268.45', audioSrc: '/music/red.mp3' },
       { title: 'Pink', duration: '153.14', audioSrc: '/music/pink.mp3' },
       { title: 'Magenta', duration: '374.22', audioSrc: '/music/magenta.mp3' },
-      { title: 'Blue', duration: '161.71', audioSrc: '/music/blue.mp3' }
+      { title: 'Mac Blue', duration: '161.71', audioSrc: '/music/blue.mp3' }
 
     ]
   }, {
