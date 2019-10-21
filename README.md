@@ -6,7 +6,7 @@
 
 ## Home
 
-![Screen Shot 2019-10-20 at 3 44 11 PM](https://user-images.githubusercontent.com/14861025/67165987-f4b5d000-f350-11e9-8772-cb25432c786c.png)
+![Screen Shot 2019-10-21 at 11 51 22 AM](https://user-images.githubusercontent.com/14861025/67225725-5893d380-f3f9-11e9-9538-c8966d64ebcb.png)
 
 ## Library
 
@@ -18,11 +18,11 @@
 
 ## Mobile
 
-![Screen Shot 2019-10-20 at 3 44 56 PM](https://user-images.githubusercontent.com/14861025/67165976-d64fd480-f350-11e9-9c35-e5082a200034.png)
+![Screen Shot 2019-10-21 at 11 51 46 AM](https://user-images.githubusercontent.com/14861025/67225721-5762a680-f3f9-11e9-97d9-6036cebe6425.png)
 
-![Screen Shot 2019-10-20 at 11 57 14 AM](https://user-images.githubusercontent.com/14861025/67163135-fbcce600-f330-11e9-97f8-24cc0846e6a9.png)
+![Screen Shot 2019-10-21 at 11 55 37 AM](https://user-images.githubusercontent.com/14861025/67226052-e4a5fb00-f3f9-11e9-8b97-b3c6c6cf41c3.png)
 
-## ![Screen Shot 2019-10-20 at 11 52 19 AM](https://user-images.githubusercontent.com/14861025/67163081-59146780-f330-11e9-906e-205839b5f35c.png)
+![Screen Shot 2019-10-21 at 11 58 02 AM](https://user-images.githubusercontent.com/14861025/67226221-1e770180-f3fa-11e9-9571-9dadadd49e41.png)
 
 ## Usage
 

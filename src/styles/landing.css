@@ -26,6 +26,10 @@ body.landing {
   text-shadow: 1px 1px 0px rgb(58, 23, 63); /* creates a shadow underneath the text for readability over the image */
 }
 
+.point-border {
+  border-top: 0.01rem solid white ;
+}
+
 .selling-points {
   position: relative;
 }
