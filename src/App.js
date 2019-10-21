@@ -12,10 +12,11 @@ class App extends Component  {
       <div className="App">
         <header className="App">
           <nav className="navbar">
-            <Link to="/" className="logo">
-              <img  src={Logo} />
+            <Link to="/" className="logo tooltip">
+              <img src={Logo} />
+              <span class="tooltiptext">Home</span>
             </Link>
-            <section className="links-container">
+            <section className="links-container tooltip">
               <Link to='/library' className="navbar-link">Library</Link>
             </section>
           </nav>

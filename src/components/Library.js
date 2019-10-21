@@ -19,10 +19,11 @@ class Library extends Component {
                 <img src={album.albumCover} alt={album.title} />
                 <section className="library-album-info caption">
                   <div>
-                    <Link to={`/album/${album.slug}`} key={index}>
+                    <Link className="tooltip"  to={`/album/${album.slug}`} key={index}>
                       <div className="album-name">{album.title}</div>
                       <div>{album.artist}</div>
                       <div>{album.songs.length} songs</div>
+                      <span class="tooltiptext">Details</span>
                     </Link>
                   </div>
                 </section>

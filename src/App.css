@@ -27,7 +27,7 @@
   position: relative;
   height: 100%;
   padding-left: 1rem;
-  padding-right: 1rem;
+  padding-right: 2rem;
   vertical-align: middle;
   color: white;
   font-size: 0.625rem;
@@ -45,4 +45,49 @@
 .links-container .navbar-link:active {
   color: rgb(233, 50, 117);
   background-color: white;
+}
+
+/* TOOLTIPS */
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 102px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  background-color: rgb(233, 50, 117);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+
+  /* Add tranparency */
+  opacity: 0.5;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent rgb(233, 50, 117) transparent;
 }
