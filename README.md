@@ -10,6 +10,12 @@
 
 ## Library
 
+### See a collection of albums
+
+<img width="1440" alt="Screen Shot 2019-10-21 at 1 04 06 PM" src="https://user-images.githubusercontent.com/14861025/67230681-520a5980-f403-11e9-8b17-748d751c588a.png">
+
+### See details.
+
 <img width="1440" alt="Screen Shot 2019-10-21 at 12 52 58 PM" src="https://user-images.githubusercontent.com/14861025/67229861-c93eee00-f401-11e9-994c-312bf9f4bc3c.png">
 
 ## Album
