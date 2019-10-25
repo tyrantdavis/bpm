@@ -123,7 +123,7 @@ export default [{
       { title: 'Red', duration: '268.45', audioSrc: '/music/red.mp3' }
     ]
   }, {
-    title: 'Were Do We Go',
+    title: 'Where Do We Go',
     artist: 'Mac Aroni Toni',
     releaseInfo: 'RCA Records',
     albumCover: '/images/album_covers/05.jpg',
