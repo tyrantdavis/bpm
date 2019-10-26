@@ -3,7 +3,7 @@ export default [{
   artist: 'Kelly Rowland',
   releaseInfo: 'Arista Records',
   albumCover: '/images/album_covers/krowland.jpeg',
-  slug: 'the-colors',
+  slug: 'keep-it-between-us',
   songs: [
     { title: 'Blue', duration: '161.71', audioSrc: '/music/blue.mp3' },
     { title: 'Green', duration: '103.96', audioSrc: '/music/green.mp3' },
@@ -16,7 +16,7 @@ export default [{
     artist: 'Mac Minny',
     releaseInfo: 'Geffen Records',
     albumCover: '/images/album_covers/03.jpg',
-    slug: 'say-hello',
+    slug: 'hello',
     songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/music/blue.mp3' },
       { title: 'Green', duration: '103.96', audioSrc: '/music/green.mp3' },
@@ -53,7 +53,7 @@ export default [{
     artist: 'Mac Aroni Toni',
     releaseInfo: 'RCA Records',
     albumCover: '/images/album_covers/05.jpg',
-    slug: 'we-go',
+    slug: 'where-do-we-go',
     songs: [
       { title: 'Pink', duration: '153.14', audioSrc: '/music/pink.mp3' },
       { title: 'Green', duration: '103.96', audioSrc: '/music/green.mp3' },
@@ -77,7 +77,7 @@ export default [{
     artist: 'Mac Minny',
     releaseInfo: 'Geffen Records',
     albumCover: '/images/album_covers/03.jpg',
-    slug: 'say-hello',
+    slug: 'hello',
     songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/music/blue.mp3' },
       { title: 'Green', duration: '103.96', audioSrc: '/music/green.mp3' },
@@ -92,7 +92,7 @@ export default [{
   artist: 'Kelly Rowland',
   releaseInfo: 'Arista Records',
   albumCover: '/images/album_covers/krowland.jpeg',
-  slug: 'the-colors',
+  slug: 'keep-it-between-us',
   songs: [
     { title: 'Blue', duration: '161.71', audioSrc: '/music/blue.mp3' },
     { title: 'Green', duration: '103.96', audioSrc: '/music/green.mp3' },
@@ -127,7 +127,7 @@ export default [{
     artist: 'Mac Aroni Toni',
     releaseInfo: 'RCA Records',
     albumCover: '/images/album_covers/05.jpg',
-    slug: 'we-go',
+    slug: 'where-do-we-go',
     songs: [
       { title: 'Pink', duration: '153.14', audioSrc: '/music/pink.mp3' },
       { title: 'Green', duration: '103.96', audioSrc: '/music/green.mp3' },
@@ -151,7 +151,7 @@ export default [{
     artist: 'Mac Minny',
     releaseInfo: 'Geffen Records',
     albumCover: '/images/album_covers/03.jpg',
-    slug: 'say-hello',
+    slug: 'hello',
     songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/music/blue.mp3' },
       { title: 'Green', duration: '103.96', audioSrc: '/music/green.mp3' },
@@ -166,7 +166,7 @@ export default [{
   artist: 'Kelly Rowland',
   releaseInfo: 'Arista Records',
   albumCover: '/images/album_covers/krowland.jpeg',
-  slug: 'the-colors',
+  slug: 'keep-it-between-us',
   songs: [
     { title: 'Blue', duration: '161.71', audioSrc: '/music/blue.mp3' },
     { title: 'Green', duration: '103.96', audioSrc: '/music/green.mp3' },
@@ -192,7 +192,7 @@ export default [{
     artist: 'Mac Minny',
     releaseInfo: 'Geffen Records',
     albumCover: '/images/album_covers/03.jpg',
-    slug: 'say-hello',
+    slug: 'hello',
     songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/music/blue.mp3' },
       { title: 'Green', duration: '103.96', audioSrc: '/music/green.mp3' },
